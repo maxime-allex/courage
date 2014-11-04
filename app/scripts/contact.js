@@ -21,7 +21,7 @@ function Nictation ($contener, nictationImage, baseImage, variation) {
 }
 
 Nictation.prototype.processTimer = function(){
-    var timer = Math.floor((Math.random()*this.variation)+100);
+    var timer = Math.floor((Math.random()*this.variation)+75);
 
     return timer
 }
