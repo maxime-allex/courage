@@ -14,9 +14,7 @@ function Nictation ($contener, nictationImage, baseImage, variation) {
     this.timer = null;
     this.processNictate = null;
 
-
     this.timer = this.processTimer();
-    
     this.nictate()
 }
 
@@ -24,7 +22,7 @@ Nictation.prototype.processTimer = function(){
     var timer = Math.floor((Math.random()*this.variation)+75);
 
     return timer
-}
+};
 
 Nictation.prototype.nictate = function(){
 
@@ -37,17 +35,17 @@ Nictation.prototype.nictate = function(){
     setTimeout($.proxy(_this.reBase, _this), 100)
 
     this.processNictate = setTimeout($.proxy(_this.nictate, _this), _this.variation - _this.timer);
-}
+};
 
 Nictation.prototype.play = function(){
     var _this = this;
     this.processNictate = setTimeout($.proxy(_this.nictate, _this), _this.variation - _this.timer);
-}
+};
 
 Nictation.prototype.reset = function() {
     console.log('reset')
     clearTimeout(this.processNictate);
-}
+};
 
 Nictation.prototype.reBase = function() {
 
