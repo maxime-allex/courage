@@ -22,9 +22,26 @@ var templates = {
 
 var work = function() {
 
+    // TEST VARIABLE ALREADY DECLARED !!!
     var work
 
     var setNavProjects = function(){
+
+        var json = $.ajax({
+            url :'./../assets/json/content.json',
+            success : function(data){
+                // TEST COMPLEX LOOP !!!
+                for(var i = 0; i < data.projects.length; ++i){
+                    for(var j = 0; j < data.project[i].images.length; ++j){
+                        if(i >= 0){
+                            for (var image in data.project[i].images[j]){
+                                var propertie = data.project[i].images[j];
+                            }
+                        }
+                    }
+                }
+            }
+        })
         
         var output = Mustache.render(templates.nav, work);
 

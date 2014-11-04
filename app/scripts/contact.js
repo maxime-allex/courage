@@ -18,7 +18,8 @@ function Nictation ($contener, nictationImage, baseImage, variation) {
     this.nictate()
 }
 
-Nictation.prototype.processTimer = function(){
+// TEST CURLY BRACE MISSING !!!
+Nictation.prototype.processTimer = function()
     var timer = Math.floor((Math.random()*this.variation)+75);
 
     return timer
