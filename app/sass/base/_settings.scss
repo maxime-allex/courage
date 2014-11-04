@@ -1,0 +1,20 @@
+// Colors
+
+$link-color: #3476af;
+$link-disabled: #dedede;
+
+// Fonts
+
+$heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif; // TODO: Default to Helvetica for now, to be changed later
+$sans-serif-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-font: Georgia, Times, "Times New Roman", serif;
+
+// Layout
+
+$l-max-width: 60em;
+
+@mixin gradient($from, $to) {
+  background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background: -moz-linear-gradient(top,  $from, $to);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}

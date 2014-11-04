@@ -1,0 +1,152 @@
+{
+    "projects" : [
+        {
+            "title" : "dior.com",
+            "tech" : "javascript",
+            "year" : "2013",
+            "client" : "Dior",
+            "description" : "développement Javascript\ncompatibilité navigateur IE6+\nSite compatible tablette",
+            "link" : "http://www.dior.com",
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/dior_com.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "backstage make-up mag",
+            "tech" : "html,css,javascript",
+            "year" : "2013",
+            "client" : "Dior",
+            "description" : "intégration HTML / CSS\ndéveloppement Javascript\ncompatibilité navigateur IE8+\nSite responsive (desktop / tablette / mobile)",
+            "link" : "http://backstage.dior.com/makeup-mag/fr_FR",
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/backstage_desktop.png"
+                },
+                {
+                    "mockup" : "mobile",
+                    "src" : "assets/images/work/backstage_mobile.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "Samsung LaTeam",
+            "tech" : "html,css",
+            "year" : "2012",
+            "client" : "Samsung",
+            "description" : "intégration HTML / CSS\ncompatibilité navigateur IE8+\nSite fluide (desktop / tablette)",
+            "link" : null,
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/lateam_desktop.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "dior mobile",
+            "tech" : "html,css,javascript",
+            "year" : "2012",
+            "client" : "Dior",
+            "description" : "intégration HTML / CSS\ndéveloppement Javascript",
+            "link" : "http://m.dior.com",
+            "images" : [
+                {
+                    "mockup" : "mobile",
+                    "src" : "assets/images/work/dior_mobile.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "youscreenit",
+            "tech" : "html,css",
+            "year" : "2011",
+            "client" : "youscreenit",
+            "description" : "intégration HTML / CSS\ncompatibilité navigateur IE8+\nSite compatible tablette",
+            "link" : "http://www.youscreenit.com",
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/youscreenit.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "espace 4",
+            "tech" : "html,css,javascript",
+            "year" : "2012",
+            "client" : "espace 4",
+            "description" : "intégration HTML / CSS\ndéveloppement Javascript\ncompatibilité navigateur IE8+",
+            "link" : "http://www.espace4.com/",
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/espace4.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "arbevel",
+            "tech" : "javascript",
+            "year" : "2012",
+            "client" : "espace 4",
+            "description" : "développement Javascript\ncompatibilité navigateur IE8+\nSite compatible tablette",
+            "link" : "http://www.arbevel.com/",
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/arbevel.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "rouge Dior",
+            "tech" : "html,css,javascript",
+            "year" : "2013",
+            "client" : "Dior",
+            "description" : "intégration HTML / CSS\ndéveloppement Javascript\ncompatibilité navigateur IE8+\nSite responsive (desktop / tablette / mobile)",
+            "link" : "http://www.backstage.dior.com/makeup-mag/fr_FR/special/2710/rouge-dior",
+            "images" : [
+                {
+                    "mockup" : "desktop",
+                    "src" : "assets/images/work/rouge_desktop.png"
+                },
+                {
+                    "mockup" : "mobile",
+                    "src" : "assets/images/work/rouge_mobile.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "j'Adore",
+            "tech" : "html,css,javascript",
+            "year" : "2012",
+            "client" : "Dior",
+            "description" : "intégration HTML / CSS\ndéveloppement Javascript\nsite iPad",
+            "link" : "http://www.dior.com/beauty/fr_fr/minisite/tf/jadore.html",
+            "images" : [
+                {
+                    "mockup" : "tablette",
+                    "src" : "assets/images/work/jadore.png"
+                }
+            ]
+        }
+    ,   {
+            "title" : "Miss Dior",
+            "tech" : "html,css,javascript",
+            "year" : "2012",
+            "client" : "Dior",
+            "description" : "intégration HTML / CSS\ndéveloppement Javascript\nsite iPad",
+            "link":null,
+            "images" : [
+                {
+                    "mockup" : "tablette",
+                    "src" : "assets/images/work/missDior.png"
+                }
+            ]
+        }
+    ]
+}

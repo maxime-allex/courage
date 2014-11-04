@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: $sans-serif-font;
+  line-height: 1.4;
+  color: #FFF;
+  overflow: hidden;
+}
+
+// Base form styles
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+// Base table styles
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width : 100%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 40px;
+  transition : all ease-in-out 1.2s;
+  top : 0;
+
+    &.morphing {
+      top : -1000px;
+    }
+
+    h1,h2 {
+      float:left;
+    }
+
+    h1, h2, nav {
+      font-size: 20px;
+      font-family: inline;
+      margin : 0;
+    }
+
+    nav {
+      float:right;
+      margin-right: 5%;
+
+      a {
+        padding : 5px 10px 1px;
+        font-size: 20px;
+        font-family: ostrich;
+        text-decoration: none;
+        margin : 0 20px;
+        color:#FFF;
+        &.active {
+          border: 1px solid #FFF;
+        }
+        &:hover {
+          color:#FFF;
+        }
+      }
+    }
+
+    h1 {
+      margin-left : 5%;
+
+      &:after {
+        content : ' - ';
+      }
+    }
+
+    h2 {
+      margin-left : 7px;
+    }
+
+  &.landing {
+    text-align: center;
+    margin-top: 40px;
+
+    h1, h2, nav {
+      float : none;
+    }
+
+    h1 {
+      font-family : dashed;
+      font-size: 160px;
+      font-weight: lighter;
+      margin: 0;
+      line-height: 130px;
+      &:after {
+        content : none;
+      }
+    }
+
+    h2 {
+      font-family : inline;
+      font-size: 82px;
+      font-weight: lighter;
+      margin: 0;
+      line-height: 45px;
+    }
+
+    nav {
+      margin-top: 40px;
+
+      a {
+        padding : 5px 10px 1px;
+        font-family: ostrich;
+        font-size: 20px;
+        text-decoration: none;
+        margin : 0 20px;
+        color:#FFF;
+        &.active {
+          border: 1px solid #FFF;
+        }
+      }
+    }
+  }
+}
+
+p {
+  font-family: helveticaCondensed;
+}
+
+

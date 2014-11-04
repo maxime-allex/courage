@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'dashed';
+    src: url('./../fonts/ostrich-dashed.woff') format('woff'),
+         url('./../fonts/ostrich-dashed.ttf')  format('truetype'),
+         url('./../fonts/ostrich-dashed.svg#svgFontName') format('svg');
+    }
+
+@font-face {
+    font-family: 'inline';
+    src: url('./../fonts/ostrich-sans-inline-regular.woff') format('woff'),
+         url('./../fonts/ostrich-sans-inline-regular.ttf')  format('truetype'),
+         url('./../fonts/ostrich-sans-inline-regular.svg#svgFontName') format('svg');
+    }
+
+@font-face {
+    font-family: 'ostrich';
+    src: url('./../fonts/ostrich-regular.woff') format('woff'),
+         url('./../fonts/ostrich-regular.ttf')  format('truetype'),
+         url('./../fonts/ostrich-regular.svg#svgFontName') format('svg');
+    }
+
+@font-face {
+    font-family: 'helveticaCondensed';
+    src: url('./../fonts/helveticaneuecondensedbold.woff') format('woff'),
+         url('./../fonts/helveticaneuecondensedbold.ttf')  format('truetype'),
+         url('./../fonts/helveticaneuecondensedbold.svg#svgFontName') format('svg');
+    }

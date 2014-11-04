@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courage</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Detect Javascript -->
+    <script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+  </head>
+  <body lang="fr">
+    <header role="banner" class="landing">
+      <h1>Maxime Allex</h1>
+      <h2>Développeur Front-end</h2>
+
+      <nav>
+        <a href="#about" class="active" data-index="0">Who ?</a>
+        <a href="#work" data-index="1">What ?</a>
+        <a href="#contact" data-index="2">How ?</a>
+      </nav>
+    </header>
+
+    <div id="bkgd" class="about intro">
+      <img src="http://localhost:8888/assets/images/background/back_1.jpg"/>
+    </div>
+
+    <main role="main">
+      
+      <section id="about" class="active" data-bkgd="back_1.jpg">
+        <div class="right">
+          <p>
+            Fort de bientôt 4 ans d'expérience dans le développement front-end, j'ai pu participer à de nombreux projets d'envergures qui m'ont permis de me perfectionner dans les languages HTML, CSS et plus particulièrement le javascript.
+          </p>
+          <p>
+            C'est dans un soucis de toujours être à la pointe des technologies du web que je maîtrise les dernières itérations du HTML et de CSS (HTML5 / CSS3) et que je possède une excellente expertise du javascript natif (POO / prototyping) et de certaines librairies reconnues. Actuellement, je poursuis l'exploration et l'apprentissage du framework Backbone et de ces nombreuses dépendances (underscore, hasher, crossroads, marionette...).
+          </p>
+          <p>
+            Dans le cadre de mes différentes missions, j'ai à plusieurs reprises été amené à collaborer sur des projets utilisant le framework PHP Symfony, j'ai donc une bonne connaissance du moteur de template Twig et du fonctionnement de Symfony (routing, assetic...).
+          </p>
+          <p>
+            Enfin, respect des normes HTML (W3C) et un code propre, maintenable et optimisé sont des critères primordiaux pour réaliser un site de qualité et je porte une grande importance à respecter ces différents points dans mon travail.
+          </p>
+        </div>
+
+        <a href="#work" id="scroll">scroll</a>
+      </section>
+
+      <section id="work">
+        <div class="left">
+          <ul class="filters">
+            <li><span data-filter="html">html</span></li>
+            <li><span data-filter="css">css</span></li>
+            <li><span data-filter="javascript">javascript</span></li>
+          </ul>
+          <ul class="items">
+            <li><a>dior make-up mag</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="project">
+            <a href="#">Voir le site</a>
+            <h3>Année : 2013</h3>
+            <h4>Client : Dior</h4>
+            <p>
+              site responsive (desktop / tablette / mobile)<br/>
+              Intégration HTML / CSS3<br/>
+              développement javascript<br/>
+              dynamisation Twig
+            </p>
+            <div class="capture">
+              <div class="desktop" style="background:url(assets/images/work/backstage_desktop.jpg) 0 34px no-repeat">
+                <img src="assets/images/mockups/desktop.png"/>
+              </div>
+              <div class="mobile" style="background:url(assets/images/work/backstage_mobile.jpg) 8px 40px no-repeat">
+                <img src="assets/images/mockups/mobile.png"/>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </section>
+     
+      <section id="contact" data-bkgd="back_2.jpg">
+        <div class="left">
+
+        </div>
+        <div class="right">
+          <p>contactez-moi ici</p>
+          <a href="http://fr.linkedin.com/pub/maxime-allex/28/5b2/216/" class="linkedin" target="_blank">linkedin</a><span> sinon vous pouvez toujours aller voir là </span><i></i><a href="https://github.com/maxime-allex" class="github" target="_blank">github</a>
+        </div>
+      </section>
+
+    </main>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>
