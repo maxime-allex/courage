@@ -96,30 +96,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/test2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95967" vertical-offset="204455" max-vertical-offset="205634">
-              <caret line="9341" column="0" selection-start-line="9341" selection-start-column="0" selection-end-line="9341" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108944">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1415174099000" expanded="true" signature="24454:24551" placeholder="..." />
+                <marker date="1415174099000" expanded="true" signature="35891:35913" placeholder="..." />
+                <marker date="1415174099000" expanded="true" signature="171911:171976" placeholder="..." />
+                <marker date="1415174099000" expanded="true" signature="172041:172075" placeholder="..." />
+                <marker date="1415174099000" expanded="true" signature="172107:172188" placeholder="..." />
+                <marker date="1415174099000" expanded="true" signature="172494:172582" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/js/main.js">
+      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="236443" max-vertical-offset="244376">
-              <caret line="10762" column="17" selection-start-line="10762" selection-start-column="17" selection-end-line="10762" selection-end-column="17" />
-              <folding>
-                <marker date="1414159552000" expanded="true" signature="287017:287527" placeholder="..." />
-                <marker date="1414159552000" expanded="true" signature="287180:287229" placeholder="..." />
-                <marker date="1414159552000" expanded="true" signature="287264:287509" placeholder="..." />
-                <marker date="1414159552000" expanded="false" signature="287339:287372" placeholder="..." />
-                <marker date="1414159552000" expanded="true" signature="287373:287462" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.8804348" vertical-offset="2130" max-vertical-offset="3234">
+              <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/app/scripts/work.js" />
         <option value="$PROJECT_DIR$/app/scripts/contact.js" />
         <option value="$PROJECT_DIR$/app/scripts/test2.js" />
+        <option value="$PROJECT_DIR$/app/scripts/test.js" />
       </list>
     </option>
   </component>
@@ -445,6 +445,44 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -564,11 +602,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="236443" max-vertical-offset="244376">
           <caret line="10762" column="17" selection-start-line="10762" selection-start-column="17" selection-end-line="10762" selection-end-column="17" />
           <folding>
-            <marker date="1414159552000" expanded="true" signature="287017:287527" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287180:287229" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287264:287509" placeholder="..." />
-            <marker date="1414159552000" expanded="false" signature="287339:287372" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287373:287462" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -655,11 +693,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="236443" max-vertical-offset="244376">
           <caret line="10762" column="17" selection-start-line="10762" selection-start-column="17" selection-end-line="10762" selection-end-column="17" />
           <folding>
-            <marker date="1414159552000" expanded="true" signature="287017:287527" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287180:287229" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287264:287509" placeholder="..." />
-            <marker date="1414159552000" expanded="false" signature="287339:287372" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287373:287462" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -759,11 +797,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="236443" max-vertical-offset="244376">
           <caret line="10762" column="17" selection-start-line="10762" selection-start-column="17" selection-end-line="10762" selection-end-column="17" />
           <folding>
-            <marker date="1414159552000" expanded="true" signature="287017:287527" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287180:287229" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287264:287509" placeholder="..." />
-            <marker date="1414159552000" expanded="false" signature="287339:287372" placeholder="..." />
-            <marker date="1414159552000" expanded="true" signature="287373:287462" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1414159552000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -847,11 +885,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/test2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95967" vertical-offset="204455" max-vertical-offset="205634">
-          <caret line="9341" column="0" selection-start-line="9341" selection-start-column="0" selection-end-line="9341" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108944">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1415174099000" expanded="true" signature="24454:24551" placeholder="..." />
+            <marker date="1415174099000" expanded="true" signature="35891:35913" placeholder="..." />
+            <marker date="1415174099000" expanded="true" signature="171911:171976" placeholder="..." />
+            <marker date="1415174099000" expanded="true" signature="172041:172075" placeholder="..." />
+            <marker date="1415174099000" expanded="true" signature="172107:172188" placeholder="..." />
+            <marker date="1415174099000" expanded="true" signature="172494:172582" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8804348" vertical-offset="2130" max-vertical-offset="3234">
+          <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
